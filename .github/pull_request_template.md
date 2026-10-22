@@ -2,8 +2,7 @@
 
 <!-- Jira ticket (e.g. ADA-1234) and, if this is one PR of several, which step it is.
 Then 1-3 sentences on motivation or scope. Don't recap the diff.
-The ticket must carry the same items (description, security impact, approval, testing, rollback);
-approving this PR is the ticket's approval. -->
+The ticket must carry the same items (description, security impact, rollback). -->
 
 ## Security Impact
 
@@ -16,8 +15,3 @@ A bare "None" is not an assessment. -->
 
 <!-- Required. Default: "Revert this PR and redeploy the previous version via adr-platform-deploy."
 If the PR has a Liquibase migration or changes data, say what a revert leaves behind and how to clean it up. -->
-
-## Testing
-
-<!-- Required. Evidence, not a claim. Name what ran and the result,
-e.g. "`./gradlew test` passes locally; CI green." or a short checklist of manual checks and outcomes. -->
